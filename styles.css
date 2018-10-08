@@ -34,7 +34,7 @@
 }
 
 .main{
-    background-color: antiquewhite;
+    background-color: rgb(243, 241, 237);
     display: flex;
     flex-direction: column;
     float: right;
@@ -43,7 +43,7 @@
     
 }
 #pic{
-    max-width: 10%;
+    max-width: 8%;
 }
 #mypic{
     border-radius: 100%;
@@ -58,12 +58,26 @@
     align-content: center;
 }
 .border{
-    border: solid 3px white;
+    border: solid 3px rgb(236, 235, 235);
     text-align: center;
 }
-hr{
+.line{
     color: black;
     background-color: black;
+    border: none;
+    border-bottom: 1px solid black;
+    height: .05em;
+    width: 20.75em;
+    
+}
+.line2{
+    color: black;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid black;
+    height: 0.05em;
+    width: 54.25em;
+
 }
 .work{
     display: flex;
@@ -72,7 +86,7 @@ hr{
     
 }
 .yearleft{
-    display: flex;
+    display: flsex;
     float: left;
     flex-direction: column;
     width: 50%;
