@@ -8,11 +8,11 @@
     display: flex;
     justify-content: center;
     align-items: center;  
-    background-color: teal;
-    color: white;
-    padding: 20px 10px 20px 10px;
+    background-color: rgb(20, 153, 153);
+    padding: 20px 30px 20px 30px;
     align-content: center;
     margin-bottom: 2em;
+    color: whitesmoke;
     
 
 }
@@ -23,7 +23,7 @@
 }
 
 .sidebar{
-    background-color: gray;
+    background-color: rgb(184, 184, 184);
     display: flex;
     flex-direction: column;
     float: left;
@@ -34,7 +34,7 @@
 }
 
 .main{
-    background-color: rgb(243, 241, 237);
+    background-color: white;
     display: flex;
     flex-direction: column;
     float: right;
@@ -47,9 +47,11 @@
 }
 #mypic{
     border-radius: 100%;
-    height: 200px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
    margin: 0 auto;
+   margin-top: 5%;
+   image-rendering: auto;
 
 }
 #border-radius{
@@ -60,6 +62,7 @@
 .border{
     border: solid 3px rgb(236, 235, 235);
     text-align: center;
+    padding: 20px 30px 20px 30px;
 }
 .line{
     color: black;
@@ -67,12 +70,12 @@
     border: none;
     border-bottom: 1px solid black;
     height: .05em;
-    width: 20.75em;
+    width: 18.25em;
     
 }
 .line2{
     color: black;
-    background-color: black;
+    background-color: rgb(187, 184, 184);
     border: none;
     border-bottom: 1px solid black;
     height: 0.05em;
@@ -99,8 +102,9 @@
 
 }
 .education{
-    display: flex;
     flex-direction:row;
     justify-content: center;
-    
+}
+p{
+    font-family: Arial, Helvetica,"Times New Roman", sans-serif;
 }
