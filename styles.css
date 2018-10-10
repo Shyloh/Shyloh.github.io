@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;  
-    background-color: rgb(20, 153, 153);
+    background-color: #45a29e;
     padding: 20px 30px 20px 30px;
     align-content: center;
     margin-bottom: 2em;
@@ -23,7 +23,7 @@
 }
 
 .sidebar{
-    background-color: rgb(184, 184, 184);
+    background-color: #edf5e1;
     display: flex;
     flex-direction: column;
     float: left;
